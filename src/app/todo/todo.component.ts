@@ -47,7 +47,7 @@ export class TodoComponent implements OnInit {
 
   deleteDoneTask(i: number) {
     this.done.splice(i, 1);
-    this.tasks.splice(i, 1);
+    this.done.splice(i, 1);
   }
 
   editTask(item: ITask, i: number) {
